@@ -11,6 +11,8 @@ export const Home = () => {
 
   const handleSubmit = () => {
     createQa(text);
+
+    window.location.pathname = "/request-page";
   };
 
   return (
