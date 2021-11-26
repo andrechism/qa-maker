@@ -1,8 +1,8 @@
-import styled from "styled-components"
-import ImageBgPages from "../../assets/images/bg-pages.png"
-import * as Logo from "../../components/shared/Logo/styles"
-import * as Input from "../../components/Input/styles"
-import { Link } from "react-router-dom"
+import styled from "styled-components";
+import ImageBgPages from "../../assets/images/bg-pages.png";
+import * as Logo from "../../components/shared/Logo/styles";
+import * as Input from "../../components/Input/styles";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   display: flex;
@@ -15,7 +15,7 @@ export const Container = styled.div`
   & ${Logo.Container} {
     margin-bottom: 80px;
   }
-`
+`;
 
 export const WrapperContainer = styled.div`
   max-width: 45%;
@@ -23,7 +23,7 @@ export const WrapperContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`
+`;
 
 export const Text = styled.p`
   color: #5daf52;
@@ -31,7 +31,7 @@ export const Text = styled.p`
   font-size: 21px;
   text-align: center;
   margin-bottom: 40px;
-`
+`;
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -47,9 +47,9 @@ export const Wrapper = styled.div`
   & ${Input.WrapperInput} {
     padding: 15px 20px;
   }
-`
+`;
 
-export const ButtonCreate = styled(Link)`
+export const ButtonCreate = styled.button`
   all: unset;
   padding: 1rem 3rem;
   background: #5daf52;
@@ -65,4 +65,4 @@ export const ButtonCreate = styled(Link)`
   &:hover {
     background: #5daf52e6;
   }
-`
+`;
