@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import * as Input from "../Input/styles"
-import * as TextArea from "../TextArea/styles"
 import RectangleDotted from "../../assets/images/rectangle-dotted.svg"
 
 export const Container = styled.div`
@@ -42,9 +41,7 @@ export const AddImages = styled.div`
 
 export const UploadImageWrapper = styled.div`
   display: flex;
-  & ${TextArea.Container} {
-    margin-bottom: 35px;
-  }
+
 `
 
 export const ImageItem = styled.div``

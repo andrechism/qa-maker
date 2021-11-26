@@ -11,7 +11,7 @@ export const Container = styled.div`
   padding: 30px;
   max-width: 944px;
   min-height: 230px;
-  
+
   position: relative;
 
   &:before {
